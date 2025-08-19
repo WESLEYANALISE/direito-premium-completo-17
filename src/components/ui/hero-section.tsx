@@ -17,19 +17,19 @@ export const HeroSection = () => {
       
       {/* Desktop background */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20 hidden sm:block"
+        className="absolute top-0 left-0 right-0 bg-cover bg-center bg-no-repeat opacity-20 hidden sm:block"
         style={{ 
           backgroundImage: `url(${heroBackground})`,
-          minHeight: '100%'
+          height: 'calc(100% - 120px)'
         }}
       />
       
       {/* Mobile background - Justice statue */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-25 sm:hidden"
+        className="absolute top-0 left-0 right-0 bg-cover bg-center bg-no-repeat opacity-25 sm:hidden"
         style={{ 
           backgroundImage: `url('/lovable-uploads/319c8e83-3d9c-4ad2-882e-a95a63e15498.png')`,
-          minHeight: '100%'
+          height: 'calc(100% - 120px)'
         }}
       />
       
@@ -62,7 +62,7 @@ export const HeroSection = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-foreground/80 mb-6">
-            Plataforma jurídica completa para sua aprovação
+            Aplicativo jurídico completo para sua aprovação
           </p>
         </div>
 
@@ -110,7 +110,7 @@ export const HeroSection = () => {
             }}
           >
             <Crown className="h-5 w-5 mr-2" />
-            Garantir Acesso Premium
+            Baixar Versão Premium
           </Button>
 
           {/* Guarantee */}
