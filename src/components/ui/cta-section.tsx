@@ -64,7 +64,7 @@ export const CTASection = () => {
           }}
         >
           <Crown className="h-5 w-5 mr-2" />
-          Garantir Vaga Premium
+          Baixar versão premium
         </Button>
 
         {/* Benefits Quick List */}
