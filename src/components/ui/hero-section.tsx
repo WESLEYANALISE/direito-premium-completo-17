@@ -20,7 +20,7 @@ export const HeroSection = () => {
         className="absolute top-0 left-0 right-0 bg-cover bg-center bg-no-repeat opacity-20 hidden sm:block"
         style={{ 
           backgroundImage: `url(${heroBackground})`,
-          height: 'calc(100% - 120px)'
+          height: '60%'
         }}
       />
       
@@ -29,7 +29,7 @@ export const HeroSection = () => {
         className="absolute top-0 left-0 right-0 bg-cover bg-center bg-no-repeat opacity-25 sm:hidden"
         style={{ 
           backgroundImage: `url('/lovable-uploads/319c8e83-3d9c-4ad2-882e-a95a63e15498.png')`,
-          height: 'calc(100% - 120px)'
+          height: '60%'
         }}
       />
       
